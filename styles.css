@@ -5,6 +5,12 @@ a {
   font-size: 20px;
 }
 
+body {
+  background-image:url("./img/bg.svg");
+  background-size:100vw 100vh;
+  backgroud-repeat: repeat-y;
+}
+
 img {
     display: block;
     margin: auto;
@@ -23,4 +29,6 @@ body {
 div.centered {
     text-align: center;
     margin: auto;
+    /* AAAHH!!! DONT TOUCH THEM BORDERS */
+    width: 50%;
 }
